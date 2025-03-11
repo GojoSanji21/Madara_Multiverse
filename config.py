@@ -28,8 +28,8 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "-1002167572229")
 PORT = os.environ.get("PORT", "8080")
 
 #Database --⚠️ REQUIRED--
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AnimeRavenBots:AnimeRavenBots@animeravenbots.huekk.mongodb.net/?retryWrites=true&w=majority&appName=MadaraFileStoreBot")
-DB_NAME = os.environ.get("DATABASE_NAME", "MadaraFileStoreBot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sagatobots00001:sagatobots100@cluster00001.vgdshkw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster00001")
+DB_NAME = os.environ.get("DATABASE_NAME", "madara_file_store_bot")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
